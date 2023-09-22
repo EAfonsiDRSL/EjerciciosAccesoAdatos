@@ -16,8 +16,14 @@ public class Ejercicio2 {
            resultado = divisor/dividendo;
 
 
-        }catch (ArithmeticException e){
+        }catch (Exception e){
+
+
             System.out.println("Excepcion captada con nombre "+e);
+            e.printStackTrace();
+            System.out.println("La causa de la excepcion es "+e.getCause());
+
+
         }
 
         dividendo = 5;
