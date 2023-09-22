@@ -1,3 +1,5 @@
+package EjerciciosRepaso;
+
 import javax.swing.*;
 
 public class Ejercicio3 {
