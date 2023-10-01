@@ -38,6 +38,13 @@ public class FileUt {
             i.getMessage();
         }
 
+        if (f1.exists() && f2.exists()){
+            if (f1.delete()){
+                System.out.println("fichero borrado correctamente");
+            }
+            f2.delete();
+        }
+
 
 
 

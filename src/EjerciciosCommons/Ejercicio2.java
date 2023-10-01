@@ -28,9 +28,9 @@ public class Ejercicio2 {
                 System.out.println("Los ficheros han sido borrados");
             }
 
-           if (directorio.delete()) {
+          /* if (directorio.delete()) {
                 System.out.println("El directorio " + directorio.getName() + " ha sido borrado");
-            }
+            }*/
 
 
     }
